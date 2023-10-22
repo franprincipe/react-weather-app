@@ -12,10 +12,10 @@ export default function App() {
       <footer>
         This project was coded by Francisca Principe{""}
      {""} and is {""}
-        <a href="https://github.com/franprincipe/react-weather-app" alt="Francisca" target="_blank">
+        <a rel="noreferrer" href="https://github.com/franprincipe/react-weather-app" alt="Francisca" target='_blank'>
           open-sourced 
-        </a> on GitHub and hosted on {" "}
-        <a href="https://app.netlify.com/sites/papaya-mandazi-ba12af/deploys" alt="Netlify" target="_blank">
+        </a> on GitHub and hosted on {""}
+        <a  rel="noreferrer" href="/" target='_blank' alt="Netlify">
           Netlify
         </a>
         .
