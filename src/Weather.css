@@ -31,7 +31,8 @@
     font-size: 64px;
     line-height: 60px;
     font-weight: 400;
-    left: 12px;
+    top: 5px;
+    left: 20px;
     position: relative;
 }
 
@@ -40,7 +41,12 @@
     font-size: 16px;
     font-weight: 400;
     position: relative;
-    top: -34px;
-    margin-left: 16px;
+    top: -27px;
+    margin-left: 22px;
     line-height: 1;
+}
+
+.Weather canvas {
+    position: relative;
+    margin-left: 22px;
 }
