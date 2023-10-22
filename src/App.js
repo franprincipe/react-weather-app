@@ -14,7 +14,11 @@ export default function App() {
      {""} and is {""}
         <a href="https://github.com/franprincipe/react-weather-app" alt="Francisca" target="_blank">
           open-sourced 
-        </a> on GitHub.
+        </a> on GitHub and hosted on {" "}
+        <a href="https://app.netlify.com/sites/papaya-mandazi-ba12af/deploys" alt="Netlify" target="_blank">
+          Netlify
+        </a>
+        .
        </footer>
        </div>
     </div>
