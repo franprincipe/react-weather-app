@@ -15,7 +15,7 @@ export default function App() {
         <a rel="noreferrer" href="https://github.com/franprincipe/react-weather-app" alt="Francisca" target='_blank'>
           open-sourced 
         </a> on GitHub and hosted on {""}
-        <a  rel="noreferrer" href="/" target='_blank' alt="Netlify">
+        <a  rel="noreferrer" href="https://glittering-meringue-e16ab0.netlify.app/" target='_blank' alt="Netlify">
           Netlify
         </a>
         .
