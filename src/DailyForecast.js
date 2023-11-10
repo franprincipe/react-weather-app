@@ -17,21 +17,21 @@ if (loaded) {
     <div className="DailyForecast">
     <div className="row">
     <div className="col">
-    <div className="DailyForecast-day">Thu</div>
-        <WeatherIcon code="01d" size={36} />
-    <div className="DailyForecast-temps">
-         <span className="DailyForecast-temp-max">{forecast[0].temp.max}°</span>
-        <span className="DailyForecast-temp-min">{forecast[0].temp.min}°</span>
+    <div className="DailyForecast-day">{forecast[0].dt}</div>
+        <WeatherIcon code={forecast[0].weather[0].icon} size={36} />
+    <div className="DailyForecast-temperatures">
+       <span className="DailyForecast-temperature-max">{Math.round(forecast[0].temp.max)}°</span>
+       <span className="DailyForecast-temperature-min">{Math.round(forecast[0].temp.min)}°</span>
     </div>
     </div>
     </div>
     </div>
     ); 
   } else {
-    let apiKey = "17f4641f07f947e33529ab836920a226";
+    let apiKey = "26oc32fb0bb79b0843abctf92a0a6446";
     let latitude = props.coordinates.lat;
     let longitude = props.coordinates.lon;
-    let apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
+    let apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${longitude}&lat=${latitude}&key=${apiKey}&units=imperial`;
 
     axios.get(apiUrl).then(handleResponse);
 
