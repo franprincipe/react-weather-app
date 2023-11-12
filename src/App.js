@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Weather from './Weather';
 
 
 import './App.css';
@@ -7,7 +7,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default function App() {
   return (
     <div className="App">
-      Weather App
+      <div className="container">
+      <Weather />
       <footer>
         This project was coded by Francisca Principe{""}
      {""} and is {""}
@@ -18,6 +19,7 @@ export default function App() {
           Netlify
         </a>
        </footer>
+       </div>
        </div>
   );
 }
