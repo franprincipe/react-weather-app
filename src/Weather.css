@@ -7,6 +7,7 @@
 }
 
 .Weather h1 {
+    color: black;
     font-size: 24px;
     font-weight: 100;
     margin: 20px 0 0 0;
@@ -27,8 +28,6 @@
 
 .Weather img {
     height: 64px;
-    width: 64px;
-    display: inline-block;
     margin-right: 10px;
     float: left;
 }
@@ -46,5 +45,4 @@
     position: relative;
     line-height: 1;
     top: -34px;
-    margin-left: 5px;
 }
