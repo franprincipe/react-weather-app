@@ -1,13 +1,14 @@
 .Weather {
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid black;
+    border: 5px solid #A37F61;
     padding: 16px;
     border-radius: 4px;
-    color:rgb(135, 135, 135);
+    color: #738888;
+    background-color: hsl(23, 72%, 85%);
 }
 
 .Weather h1 {
-    color: black;
+    color: #E4742C;
     font-size: 24px;
     font-weight: 100;
     margin: 20px 0 0 0;
@@ -32,7 +33,7 @@
 }
 
 .Weather .temperature {
-    color: black;
+    color: #E4742C;
     font-size: 64px;
     line-height: 64px;
     font-weight: 400;
@@ -41,10 +42,20 @@
     
 }
 .Weather .unit {
-    color: black;
+    color: #E4742C;
     font-size: 16px;
     font-weight: 400;
     position: relative;
     line-height: 1;
     top: -32px;
+}
+
+.Weather .btn {
+    background-color: #E4742C;
+    color: #638B95;
+}
+
+.Weather .btn:hover {
+    background-color:  #638B95;
+    color: #E4742C;
 }
